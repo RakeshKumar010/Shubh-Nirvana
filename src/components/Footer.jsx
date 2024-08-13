@@ -20,7 +20,7 @@ const Footer = () => {
             href="#"
             className="flex items-center justify-center md:justify-start mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
-            <img src={Logo} className="md:h-14 h-12 bg-white p-2  rounded-md" alt="Flowbite Logo " />
+            <img src={Logo} className="md:h-16 h-12 bg-black p-2  rounded-md" alt="Flowbite Logo " />
           </a>
           <ul className="md:flex hidden flex-wrap items-center mb-6 text-sm font-medium  sm:mb-0 text-black">
             <li >
