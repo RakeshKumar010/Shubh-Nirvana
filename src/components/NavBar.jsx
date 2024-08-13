@@ -43,7 +43,7 @@ const NavBar = () => {
           <img
             src={ProjectImg}
             alt="...."
-            className="lg:h-[4vw]  h-10   rounded-md"
+            className="lg:h-[4vw]  h-14   rounded-md"
           />
         </Link>
         <div className={`md:flex hidden gap-5 text-black`}>
