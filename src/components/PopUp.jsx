@@ -39,7 +39,7 @@ const PopUp = ({ setPopUpShow }) => {
     Email.send({
       SecureToken: "fb8ca823-ba7c-4ebf-a072-bfb263221e6c",
       From: "botmediadigitalmarketing@gmail.com",
-      To:["rohan.genclearning01@gmail.com", "sy6864@gmail.com"],
+      To:"botmediadigitalmarketing@gmail.com",
       Subject: "Details from "+formData.site,
       Body: body,
     }).then((message) => {
