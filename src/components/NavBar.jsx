@@ -43,7 +43,7 @@ const NavBar = () => {
           <img
             src={ProjectImg}
             alt="...."
-            className="lg:h-[4vw]  h-5   rounded-md"
+            className="lg:h-[4vw]  h-10   rounded-md"
           />
         </Link>
         <div className={`md:flex hidden gap-5 text-black`}>
@@ -69,7 +69,7 @@ const NavBar = () => {
       </div>
       {navOpen ? (
         <div
-          className={`flex  fixed z-30 right-0 left-0  flex-col justify-center bg-gray-700 items-center py-5  md:hidden gap-5 text-white`}
+          className={`flex  fixed z-30 right-0 left-0 top-[75px]  flex-col justify-center bg-gray-700 items-center py-5  md:hidden gap-5 text-white`}
         >
           {navLinks.map((link) => (
             <a
@@ -79,7 +79,7 @@ const NavBar = () => {
                 scrollPage(link.ref);
                 setNavOpen(false);
               }}
-              className="hover:bg-logoBg bg-black"
+              className="hover:bg-logoBg "
             >
               {link.name}
             </a>
