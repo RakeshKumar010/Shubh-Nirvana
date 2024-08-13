@@ -69,7 +69,7 @@ const NavBar = () => {
       </div>
       {navOpen ? (
         <div
-          className={`flex  fixed z-30 right-0 left-0 top-[75px]  flex-col justify-center bg-gray-700 items-center py-5  md:hidden gap-5 text-white`}
+          className={`flex  fixed z-30 right-0 left-0 top-[90px]  flex-col justify-center bg-gray-950/50 backdrop-blur-lg items-center py-5  md:hidden gap-5 text-white`}
         >
           {navLinks.map((link) => (
             <a
