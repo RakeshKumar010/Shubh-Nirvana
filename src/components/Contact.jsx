@@ -69,7 +69,7 @@ const Contact = () => {
               <div className="h-full pr-6">
                 <p className="mt-3 mb-12 text-lg text-center md:text-start text-gray-600 ">
                 
-               At Mahindra Lifespaces, we're dedicated to providing you with the
+               At Shubh Nirvana Viman Nagar, we're dedicated to providing you with the
                   best real estate services. Whether you're looking to buy,
                   sell, or rent, our experienced team is here to assist you.
                 </p>

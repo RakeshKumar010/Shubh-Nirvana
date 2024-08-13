@@ -23,10 +23,10 @@ const Home = ({setPopUpShow}) => {
       <div className="  w-full h-full text-white flex flex-col justify-end ">
         <div className="flex justify-around items-center md:items-start md:ml-40 flex-col-reverse md:gap-7 gap-2  md:mb-28">
           <div className=" md:p-5 p-1 rounded-md shadow-md">
-            <p className="font-extrabold text-xl md:text-5xl mb-3 hidden md:block ">  Mahindra Lifespaces</p>
+            <p className="font-extrabold text-xl md:text-5xl mb-3 hidden md:block ">  Shubh Nirvana Viman Nagar</p>
             <div className="md:flex items-center hidden  ">
               <ImLocation2 className="text-red-600 text-xl" />
-              <p className="">Kharadi, Pune, Maharashtra</p>
+              <p className="">Shubh Nirvana, Survey No. 227, Pune, Maharashtra</p>
             </div>
 
             <div className="flex gap-2 select-none cursor-pointer">
